@@ -17,5 +17,6 @@
     "moduleResolution": "Bundler"
   },
   "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "exclude": ["node/modules/*", "public/*"]
 }

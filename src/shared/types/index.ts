@@ -1,0 +1,1 @@
+export { type IGetPropsParams, type RouteProps } from "./routeTypes";

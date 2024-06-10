@@ -1,5 +1,4 @@
-import App from "@App/App.svelte"
-import "@App/app.css"
+import App from "@App/App.svelte";
 
 const app = new App({
   target: document.getElementById('app')!,

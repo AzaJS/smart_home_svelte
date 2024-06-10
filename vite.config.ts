@@ -6,7 +6,10 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 export default defineConfig({
   resolve: {
     alias: {
+			"@SVG": path.resolve(__dirname, "public/svg/"),
       "@App": path.resolve(__dirname, "src/app"),
+      "@Entities": path.resolve(__dirname, "src/entities"),
+      "@Pages": path.resolve(__dirname, "src/pages")
     }
   },
 
